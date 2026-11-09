@@ -1,7 +1,7 @@
 /* Anandrya's Wallet: funciona sem internet depois da primeira visita.
    Ao publicar uma versão nova, troque o número em CACHE. */
-const CACHE = 'anandrya-wallet-v1';
-const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon.svg', './icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable-512.png', './icons/apple-touch-icon.png', './icons/favicon-32.png'];
+const CACHE = 'anandrya-wallet-v2';
+const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png', './favicon-32.png'];
 const EXTRA = ['https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js', 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Albert+Sans:wght@400;500;600;700&display=swap'];
 
 self.addEventListener('install', e => {
